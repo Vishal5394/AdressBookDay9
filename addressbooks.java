@@ -9,14 +9,14 @@ public class addressbooks {
 	        
 	        String firstName,lastName,address,city,state,emailId;
 	        long phoneNumber;
-			int Zip;
-			Scanner sc=new Scanner(System.in);
+		int Zip;
+		Scanner sc=new Scanner(System.in);
 
-			System.out.println("Enter first name: ");
-			firstName=sc.nextLine();
+		System.out.println("Enter first name: ");
+		firstName=sc.nextLine();
 
-			System.out.println("Enter last name: ");
-			lastName=sc.nextLine();
+		System.out.println("Enter last name: ");
+		lastName=sc.nextLine();
 
 	        System.out.println("Enter address: ");
 	        address=sc.nextLine();
